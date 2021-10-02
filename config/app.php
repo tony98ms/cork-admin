@@ -165,6 +165,7 @@ return [
         /*
          * Package Service Providers...
          */
+        App\Providers\MenuLayoutProvider::class,
 
         /*
          * Application Service Providers...

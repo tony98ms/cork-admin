@@ -1,0 +1,19 @@
+{
+    "menu": [
+        {
+            "url": "inicio",
+            "name": "Inicio",
+            "icon": "home",
+            "can": "solicitudes",
+            "submenu": [
+                {
+                    "route": "admin.index",
+                    "url": "admin",
+                    "name": "Inicio",
+                    "can": ""
+                }
+            ]
+        }
+    ]
+
+}

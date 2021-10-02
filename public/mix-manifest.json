@@ -1,4 +1,15 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/css/plugins.css": "/css/plugins.css",
+    "/css/admin.css": "/css/admin.css",
+    "/css/structure-minimal.css": "/css/structure-minimal.css",
+    "/css/elements/miscellaneous.css": "/css/elements/miscellaneous.css",
+    "/css/elements/breadcrumb.css": "/css/elements/breadcrumb.css",
+    "/css/auth.min.css": "/css/auth.min.css",
+    "/js/authentication/form-1.js": "/js/authentication/form-1.js",
+    "/js/admin.min.js": "/js/admin.min.js",
+    "/js/plugins.min.js": "/js/plugins.min.js",
+    "/css/fonts.min.css": "/css/fonts.min.css",
+    "/css/custom.min.css": "/css/custom.min.css"
 }
