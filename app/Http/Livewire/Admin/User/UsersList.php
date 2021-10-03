@@ -45,7 +45,7 @@ class UsersList extends Component
     {
         $this->validate([
             'names'   => 'required',
-            'email'    => 'required|unique:users,email',
+            'email'    => 'required|unique:users,email|email',
             'rol'         => 'required',
             'username'         => 'required|unique:users,username',
         ], [

@@ -1,61 +1,52 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## LARAVEL CORK ADMIN
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+<p  align="center">
+<a  href="https://github.com/tony98msk"><img  src="https://img.shields.io/badge/TonyStore-EC-blue?style=for-the-badge"  alt="TonyStore"></a>
+<a  href="https://github.com/tony98ms/cork-admin/issuesk"><img  src="https://img.shields.io/github/issues/tony98ms/cork-admin?style=for-the-badge"  alt="Build Status"></a>
+<a  href="https://github.com/tony98ms/cork-admin/tags"><img  src="https://img.shields.io/github/downloads/tony98ms/cork-admin/total?style=for-the-badge"  alt="Total Downloads"></a>
+<a  href="https://github.com/tony98ms/cork-admin/stargazers"><img  src="https://img.shields.io/github/stars/tony98ms/cork-admin?style=for-the-badge"  alt="Latest Stable Version"></a>
+<a  href="https://github.com/tony98ms/cork-admin/blob/master/LICENSE"><img  src="https://img.shields.io/github/license/tony98ms/cork-admin?style=for-the-badge"  alt="License"></a>
 </p>
 
-## About Laravel
+Proyecto base de Laravel 7, usando la plantilla de [CORK](https://themeforest.net/item/cork-responsive-admin-dashboard-template/25582188) en su versión 1.9. Este proyecto contiene algunos paquetes extras que ayudaran en la construcción de tu aplicación web, los cuales son:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- [Laravol Avatar](https://github.com/laravolt/avatar): Nos permite generar avatar con letras.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- [Livewire](https://github.com/livewire/livewire): Permite crear interfaces dinámicas de forma simple, sin dejar de lado la comodidad de Blade.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- [Livewire Notification](https://github.com/tony98ms/livewire-notification): Genera notificaciones Toast desde Livewire utilizando los eventos de Livewire.
 
-## Learning Laravel
+- [Laravel Permission](https://github.com/spatie/laravel-permission): Permite administrar los permisos y roles de los usuarios en una base de datos.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- [Laravel Sub Query](https://github.com/Alexmg86/laravel-sub-query): Realiza Sub Consultas a tu base de datos.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Guía de Implementación 
 
-## Laravel Sponsors
+* `git clone https://github.com/tony98ms/cork-admin`.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+* `cd projectname`.
 
-### Premium Partners
+* `composer install`.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+* `php artisan key:generate`.
 
-## Contributing
+* Crea tu base de datos y agrega sus credenciales en el archivo *.env*.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+* `php artisan migrate --seed` para crear las tablas y las semillas con los datos por defecto para usar el sistema.
 
-## Code of Conduct
+* `npm install`. Para instalar dependencias Js.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* `npm run dev`. Para compilar todos los estilos `css` y `js`
 
-## Security Vulnerabilities
+* `php artisan serve` para iniciar la aplicación.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Contenido 
 
-## License
+* `Modulo de Creación de Usarios `: Elaborado con Livewire.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* `Actualizar contraseña`: Elaborado con Livewire.
+
+#### Proximamente
+
+ 1. Modulo para administrar roles y permisos del sistema.
+ 2. Modulo de Configuración.

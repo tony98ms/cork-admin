@@ -2,20 +2,42 @@
 
 namespace Tests\Feature;
 
-use Illuminate\Foundation\Testing\RefreshDatabase;
+use App\User;
 use Tests\TestCase;
+use Livewire\Livewire;
+use App\Http\Livewire\Admin\User\UsersList;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ExampleTest extends TestCase
 {
-    /**
-     * A basic test example.
-     *
-     * @return void
-     */
-    public function testBasicTest()
+    /** @test  */
+    function can_create_post()
     {
-        $response = $this->get('/');
+        // $this->actingAs(User::factory()->create());
 
-        $response->assertStatus(200);
+        Livewire::test(UsersList::class)
+            ->set('names', 'Tony')
+            ->set('email', 'tsandoval@gmail.com')
+            ->set('username', 'tonysam')
+            ->set('status', 'activo')
+            ->set('rol', 'usuario')
+            ->call('createUser');
+
+        $this->assertTrue(User::whereUsername('tonysam')->exists());
+    }
+    /** @test  */
+    function data_is_required()
+    {
+        Livewire::test(UsersList::class)
+            ->set('names', '')
+            ->set('email', 'acep')
+            ->set('username', '')
+            ->set('status', '')
+            ->set('rol', '')
+            ->call('createUser')
+            ->assertHasErrors(['names' => 'required'])
+            ->assertHasErrors(['username' => 'required'])
+            ->assertHasErrors(['rol' => 'required'])
+            ->assertHasErrors(['email' => 'email']);
     }
 }
