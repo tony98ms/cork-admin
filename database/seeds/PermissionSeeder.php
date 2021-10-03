@@ -30,5 +30,6 @@ class PermissionSeeder extends Seeder
         $user = User::find(1);
         $user->assignRole($role);
         Role::create(['name' => 'usuario', 'description' => 'Usuario']);
+        Permission::create(['name' => 'usuarios', 'description' => 'Modulo Usuarios']);
     }
 }

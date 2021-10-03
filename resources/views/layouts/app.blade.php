@@ -72,11 +72,11 @@
                         aria-labelledby="userProfileDropdown">
                         <div class="user-profile-section">
                             <div class="media mx-auto">
-                                @if (Auth::user()->avatar)
+                                {{-- @if (Auth::user()->avatar)
                                     <img src="{{ Auth::user()->avatar }}" class="img-fluid mr-2" alt="avatar">
                                 @else
                                     <img alt="image" src="{{ Avatar::create(Auth::user()->names)->setChars(2) }}">
-                                @endif
+                                @endif --}}
                                 <div class="media-body">
                                     <h5> {{ Auth::user()->names }}</h5>
                                     <p class="text-capitalize">{{ getRole() }}</p>

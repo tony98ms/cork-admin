@@ -24,7 +24,7 @@
                     "route": "admin.users.index",
                     "url": "admin/users",
                     "name": "Lista de Usuarios ",
-                    "can": ""
+                    "can": "usuarios"
                 }
             ]
         }
