@@ -34,6 +34,7 @@ mix.scripts([
     'resources/plugins/font-icons/feather/feather.js',
     'resources/plugins/bootstrap-select/bootstrap-select.min.js',
     'resources/js/fonts.js',
+    'resources/js/eventos.js',
 ], 'public/js/plugins.min.js').sourceMaps();
 mix.copyDirectory('resources/fonts', 'public/fonts');
 

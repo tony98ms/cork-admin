@@ -8,7 +8,9 @@
     <title>TonyStore - POS</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/admin.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/fonts.min.css') }}" rel="stylesheet" type="text/css" />
@@ -22,6 +24,10 @@
     @yield('css')
 
     <style>
+        body {
+            font-family: 'Sansita', sans-serif;
+        }
+
         /*
             The below code is for DEMO purpose --- Use it if you are using this demo otherwise, Remove it
         */

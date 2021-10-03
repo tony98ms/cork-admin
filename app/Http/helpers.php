@@ -118,3 +118,16 @@ if (!function_exists('expanded')) {
         }
     }
 }
+if (!function_exists('simpleStatus')) {
+    function simpleStatus($estado)
+    {
+        switch ($estado) {
+            case 'activo':
+                echo 'text-capitalize badge-success';
+                break;
+            default:
+                echo "text-capitalize badge-danger";
+        }
+        // return $data;
+    }
+}

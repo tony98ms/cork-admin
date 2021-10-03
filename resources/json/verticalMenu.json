@@ -13,6 +13,20 @@
                     "can": ""
                 }
             ]
+        },
+        {
+            "url": "usuarios",
+            "name": "Usuarios",
+            "icon": "users",
+            "can": "usuarios",
+            "submenu": [
+                {
+                    "route": "admin.users.index",
+                    "url": "admin/usuarios",
+                    "name": "Lista de Usuarios ",
+                    "can": ""
+                }
+            ]
         }
     ]
 

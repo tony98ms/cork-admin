@@ -7,7 +7,7 @@ use Spatie\Permission\Models\Role;
 use Illuminate\Support\Facades\Hash;
 use Spatie\Permission\PermissionRegistrar;
 
-class PermissioSeeder extends Seeder
+class PermissionSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -29,5 +29,6 @@ class PermissioSeeder extends Seeder
         ]);
         $user = User::find(1);
         $user->assignRole($role);
+        Role::create(['name' => 'usuario', 'description' => 'Usuario']);
     }
 }
