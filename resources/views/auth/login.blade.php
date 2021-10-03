@@ -5,8 +5,7 @@
             <div class="form-form-wrap">
                 <div class="form-container">
                     <div class="form-content">
-                        <h1 class="">Ingresa a  <a href=" index.html"><span class="brand-name">Departamento de Salud
-                                Municipal</span></a></h1>
+                        <h1 class="">Ingresa a  <a href=" index.html"><span class="brand-name">Cork Admin</span></a></h1>
                         @if (Session::has('message'))
                             <div class="alert alert-danger alert-dismissible" role="alert">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
@@ -16,7 +15,6 @@
                         @endif
                         <form class="text-left" method="POST" action="{{ route('login') }}">
                             @csrf
-
                             <div class="form">
                                 <div id="username-field" class="field-wrapper input">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -79,7 +77,6 @@
                                 </div>
                             </div>
                         </form>
-                        <p class="terms-conditions">© 2021 Todos los derechos reservados. <a href="index.html"></a></p>
                     </div>
                 </div>
             </div>
