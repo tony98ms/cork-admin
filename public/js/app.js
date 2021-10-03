@@ -680,6 +680,17 @@ eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourc
 
 /***/ }),
 
+/***/ "./resources/sass/assets/users/user-profile.scss":
+/*!*******************************************************!*\
+  !*** ./resources/sass/assets/users/user-profile.scss ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9hc3NldHMvdXNlcnMvdXNlci1wcm9maWxlLnNjc3M/YjU5YiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSIsImZpbGUiOiIuL3Jlc291cmNlcy9zYXNzL2Fzc2V0cy91c2Vycy91c2VyLXByb2ZpbGUuc2Nzcy5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vIHJlbW92ZWQgYnkgZXh0cmFjdC10ZXh0LXdlYnBhY2stcGx1Z2luIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/sass/assets/users/user-profile.scss\n");
+
+/***/ }),
+
 /***/ "./resources/sass/plugins.scss":
 /*!*************************************!*\
   !*** ./resources/sass/plugins.scss ***!
@@ -692,9 +703,9 @@ eval("// removed by extract-text-webpack-plugin//# sourceURL=[module]\n//# sourc
 /***/ }),
 
 /***/ 0:
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/plugins.scss ./resources/sass/assets/admin.scss ./resources/sass/assets/structure-minimal.scss ./resources/sass/assets/elements/miscellaneous.scss ./resources/sass/assets/elements/breadcrumb.scss ./resources/sass/assets/authentication/form-1.scss ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** multi ./resources/js/app.js ./resources/sass/app.scss ./resources/sass/plugins.scss ./resources/sass/assets/admin.scss ./resources/sass/assets/structure-minimal.scss ./resources/sass/assets/elements/miscellaneous.scss ./resources/sass/assets/elements/breadcrumb.scss ./resources/sass/assets/authentication/form-1.scss ./resources/sass/assets/users/user-profile.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -705,7 +716,8 @@ __webpack_require__(/*! D:\laragon\www\cork-admin\resources\sass\assets\admin.sc
 __webpack_require__(/*! D:\laragon\www\cork-admin\resources\sass\assets\structure-minimal.scss */"./resources/sass/assets/structure-minimal.scss");
 __webpack_require__(/*! D:\laragon\www\cork-admin\resources\sass\assets\elements\miscellaneous.scss */"./resources/sass/assets/elements/miscellaneous.scss");
 __webpack_require__(/*! D:\laragon\www\cork-admin\resources\sass\assets\elements\breadcrumb.scss */"./resources/sass/assets/elements/breadcrumb.scss");
-module.exports = __webpack_require__(/*! D:\laragon\www\cork-admin\resources\sass\assets\authentication\form-1.scss */"./resources/sass/assets/authentication/form-1.scss");
+__webpack_require__(/*! D:\laragon\www\cork-admin\resources\sass\assets\authentication\form-1.scss */"./resources/sass/assets/authentication/form-1.scss");
+module.exports = __webpack_require__(/*! D:\laragon\www\cork-admin\resources\sass\assets\users\user-profile.scss */"./resources/sass/assets/users/user-profile.scss");
 
 
 /***/ })

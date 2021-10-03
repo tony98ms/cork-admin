@@ -7,6 +7,7 @@
     "/css/elements/miscellaneous.css": "/css/elements/miscellaneous.css",
     "/css/elements/breadcrumb.css": "/css/elements/breadcrumb.css",
     "/css/auth.min.css": "/css/auth.min.css",
+    "/css/users/users-profile.css": "/css/users/users-profile.css",
     "/js/authentication/form-1.js": "/js/authentication/form-1.js",
     "/js/admin.min.js": "/js/admin.min.js",
     "/js/plugins.min.js": "/js/plugins.min.js",

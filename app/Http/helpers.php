@@ -82,7 +82,7 @@ if (!function_exists('submenu')) {
 if (!function_exists('getRole')) {
     function getRole()
     {
-        return  auth()->user()->roles[0]->descripcion;
+        return  auth()->user()->roles[0]->description;
     }
 }
 if (!function_exists('activeAll')) {
@@ -129,5 +129,17 @@ if (!function_exists('simpleStatus')) {
                 echo "text-capitalize badge-danger";
         }
         // return $data;
+    }
+}
+if (!function_exists('names')) {
+    function names()
+    {
+        return   Auth::user()->names;
+    }
+}
+if (!function_exists('lastAccess')) {
+    function lastAccess()
+    {
+        return Carbon::parse(Auth::user()->access_at)->diffForHumans();
     }
 }

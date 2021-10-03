@@ -19,7 +19,8 @@ mix.js('resources/js/app.js', 'public/js')
     .sass('resources/sass/assets/structure-minimal.scss', 'public/css/')
     .sass('resources/sass/assets/elements/miscellaneous.scss', 'public/css/elements/miscellaneous.css')
     .sass('resources/sass/assets/elements/breadcrumb.scss', 'public/css/elements/breadcrumb.css')
-    .sass('resources/sass/assets/authentication/form-1.scss', 'public/css/auth.min.css');
+    .sass('resources/sass/assets/authentication/form-1.scss', 'public/css/auth.min.css')
+    .sass('resources/sass/assets/users/user-profile.scss', 'public/css/users/users-profile.css');
 
 mix.scripts([
     'resources/js/admin.js',

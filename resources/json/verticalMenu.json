@@ -22,7 +22,7 @@
             "submenu": [
                 {
                     "route": "admin.users.index",
-                    "url": "admin/usuarios",
+                    "url": "admin/users",
                     "name": "Lista de Usuarios ",
                     "can": ""
                 }

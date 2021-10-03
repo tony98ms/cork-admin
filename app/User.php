@@ -74,7 +74,7 @@ class User extends Authenticatable
     public function scopeFindRole($query, $rol)
     {
         return $query->where(function ($query) use ($rol) {
-            if ($this->findrole !== '') {
+            if ($rol !== '') {
                 $query->role($rol);
             }
         });

@@ -28,9 +28,6 @@
             font-family: 'Sansita', sans-serif;
         }
 
-        /*
-            The below code is for DEMO purpose --- Use it if you are using this demo otherwise, Remove it
-        */
         .navbar .navbar-item.navbar-dropdown {
             margin-left: auto;
         }
@@ -110,6 +107,7 @@
     <!--  BEGIN MAIN CONTAINER  -->
     <div class="main-container" id="container">
         <div class="overlay"></div>
+        <div class="cs-overlay"></div>
         <div class="search-overlay"></div>
         @include('layouts.partials.sidebar')
         <!--  BEGIN CONTENT AREA  -->
