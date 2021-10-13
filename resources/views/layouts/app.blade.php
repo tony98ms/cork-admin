@@ -165,6 +165,7 @@
         @endif
     </script>
     @yield('js')
+    <x-permissions::scripts />
 </body>
 
 </html>

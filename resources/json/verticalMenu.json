@@ -27,6 +27,22 @@
                     "can": "usuarios"
                 }
             ]
+        },
+        {
+            "url": "settings",
+            "name": "Configuracion",
+            "icon": "settings",
+            "can": "settings",
+            "submenu": [
+                {
+                    "route": "permission.index",
+                    "url": "admin/roles/manager",
+                    "name": "Roles",
+                    "can": ""
+                }
+
+            ]
+
         }
     ]
 

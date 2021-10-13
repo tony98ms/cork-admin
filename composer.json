@@ -19,7 +19,8 @@
         "laravolt/avatar": "^4.1",
         "livewire/livewire": "^2.6",
         "spatie/laravel-permission": "^5.1",
-        "tonystore/livewire-notification": "^1.0"
+        "tonystore/livewire-notification": "^1.0",
+        "tonystore/livewire-permission": "^0.1.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
